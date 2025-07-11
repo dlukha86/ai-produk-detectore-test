@@ -6,7 +6,7 @@ from PIL import Image
 import os
 import requests
 
-# Download model jika belum ada
+# Unduh model dari Hugging Face jika belum ada
 MODEL_PATH = "model_produk.h5"
 MODEL_URL = "https://huggingface.co/dlukha/ai-model-produk-test/resolve/main/model_produk.h5"
 
