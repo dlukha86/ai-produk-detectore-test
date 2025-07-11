@@ -8,7 +8,7 @@ import requests
 
 # Download model jika belum ada
 MODEL_PATH = "model_produk.h5"
-MODEL_URL = "https://huggingface.co/dlukha/ai-model-produk-test/commit/71f82f6617b5f04287ec764414afbdbbdf7769b1"
+MODEL_URL = "https://huggingface.co/dlukha/ai-model-produk-test/blob/main/model_produk.h5"
 
 if not os.path.exists(MODEL_PATH):
     with st.spinner("🔄 Mengunduh model..."):
